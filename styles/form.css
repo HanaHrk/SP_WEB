@@ -1,0 +1,78 @@
+.form {
+    height: 100%;
+    width: 80%;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    float: right;
+}
+.form div {
+    display: block;
+    height: 100%;
+    align-items: center;
+}
+.form input[type=submit] {
+    background-color: green;
+    color:wheat;
+    border-color: rgb(1, 56, 1);
+    height: 50px;
+} 
+.form input[type=text], input[type=text], input[type=submit], form textarea, .review_select {
+    width: 70%;  
+    border-radius: 6px;
+    border-style: solid; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.form input[type=text], input[type=email] {
+    background-color: rgba(82, 55, 21, 0.651);
+    color:wheat;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: rgb(51, 44, 28);
+    height: 50px;
+}
+.form input[type=file] {
+    display: block;
+    margin-left: 15%;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 50px;
+}
+::placeholder{
+    color: wheat;
+}
+.form textarea {
+    background-color: rgba(82, 55, 21, 0.651);
+    color:wheat;
+    border-color: rgb(51, 44, 28);
+    resize:none;  
+}
+.form label {
+    position: relative;
+    margin-left: 15%;
+    font-size: 1.05em;
+    color: rgb(51, 44, 28);
+}
+
+@media only screen and (max-width:600px) {
+    .form {
+        width: 100%;
+    }
+    .form label {
+        margin-left: 0;
+    }
+    .form input[type=file] {
+        margin-left: 0;
+    }
+    .form textarea, .review_select {
+        width: 100%;
+    }
+    .form input[type=text], input[type=submit] {
+        width: 100%;
+    }
+}

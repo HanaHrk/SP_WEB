@@ -1,0 +1,32 @@
+.adminTable {
+    width: 80%;
+    border-collapse: collapse;
+    float:right;
+    text-align: center;
+}
+
+.adminTable a {
+    text-decoration: underline;
+    color: rgb(53, 30, 7);
+}
+.adminTable table  {
+    width: 100%;
+}
+
+.adminTable table form {
+    width: 100%;
+}
+.adminTable select {
+    width: 100%;
+}
+.adminTable input[type=submit] {
+    width: 100%;
+    color:rgba(49, 36, 7, 0.911);
+    background-color: rgba(51, 30, 13, 0.11);
+}
+
+@media only screen and (max-width:600px) {
+    .adminTable {
+        width: 100%;
+    }
+}

@@ -1,0 +1,63 @@
+.articleBox {
+    margin: 3px;
+    width: 60%;
+    margin-left: 30%;
+    margin-right: auto;
+    height: 30%;
+    background-color: rgb(250, 219, 162);
+    border-radius: 5px;
+    border-style: dashed;
+    border-color: rgb(102, 49, 19);
+}
+#cross a {
+    text-decoration: none;
+    color: rgb(102, 49, 19);
+    margin:50%;
+    font-size: 30px;
+}
+.articleBox table {
+    display: none;
+    width: 80%;
+}
+.labels  {
+    float: left;
+    height: 100%;
+    width: 80%;
+    display: block;
+}
+
+.buttons {
+    float: left;
+    height: 100%;
+    width: 20%;
+    display: block;
+}
+.articleBox ul li, .articleBox table {
+    margin: 5px;
+    list-style: none;
+    border-style: solid;
+    background-color: rgb(248, 225, 183);
+    border-color:  rgb(85, 45, 21);
+    border-width: 1px;
+    border-radius: 4px;
+}
+.articleBox ul li a {
+    color:brown;
+    text-decoration:underline;
+}
+.articleBox ul li a:hover {
+    color:#562222;
+}
+
+.rev_table {
+    width: 100%;
+}
+
+
+@media only screen and (max-width:600px) {
+    .articleBox {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+}
